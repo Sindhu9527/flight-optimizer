@@ -1,0 +1,9 @@
+    BWI OHA PHL DUL LGA LAX SFO SAN 
+BWI 0   0   12  7   0   0   0   0   
+OHA 0   0   7   0   0   0   0   0   
+PHL 12  7   0   0   16  0   0   0   
+DUL 7   0   0   0   0   0   0   0   
+LGA 0   0   16  0   0   3   9   3   
+LAX 0   0   0   0   3   0   4   0   
+SFO 0   0   0   0   9   4   0   4   
+SAN 0   0   0   0   3   0   4   0   

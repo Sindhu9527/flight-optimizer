@@ -1,0 +1,27 @@
+Flight Optimizer is a program which calculates optimal routes between airports.
+
+Main files:
+RouteGenerator
+- calculates routes given airport start and end weighted by distance and segment threshold.
+FrequencyGenerator
+- calculates frequency of individual routes
+SkeletonGenerator
+- generates a skeleton without cycles— that is, the minimum amount of routes weighted by frequency that will allow one to get from one airport to another.
+
+To Run:
+javac RouteGenerator.java
+java RouteGenerator [.txt file] #
+	-where [.txt file] is a .txt file containing flight info
+	-where # is the threshold
+
+The output will be a file called routes.txt with your shortest-flight output.
+
+javac FrequencyGenerator.java
+java FrequencyGenerator routes.txt 
+
+The output will be a file called frequencies.txt.
+
+javac SkeletonGenerator.java
+java SkeletonGenerator frequencies.txt
+
+The output will be two files called skeleton.txt and airportFrequencies.txt 

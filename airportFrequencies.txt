@@ -1,0 +1,8 @@
+PHL - 70
+LGA - 50
+BWI - 38
+SFO - 34
+OHA - 14
+DUL - 14
+LAX - 8
+SAN - 8
